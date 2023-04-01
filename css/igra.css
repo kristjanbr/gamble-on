@@ -1,0 +1,42 @@
+.playersWrap{
+    display: flex;
+    max-width: 95%;
+    transform: translate(2.5%, 0);
+    vertical-align: middle;
+}
+.colIgra{
+    flex: 33.33%;
+    padding: 10px;
+    vertical-align: middle;
+}
+.playersIgra {
+    border-radius: 1em;
+    background: #474787;
+    text-align: center;
+    padding: 1em;
+    height: 20em;
+    vertical-align: middle;
+}
+.playersWrap{
+    display: flex;
+    max-width: 95%;
+    transform: translate(2.5%, 0);
+    vertical-align: middle;
+}
+.submWrap{
+    display: flex;
+    justify-content: center;
+}
+#submBut{
+    height: 2.3em;
+    font-size: 1.5em;
+}
+input[type="submit"]:disabled{
+    border: #2c2c54 solid 2px;
+    border-radius: 0.4em;
+    height: 1.5em;
+    background-color: #2c2c54;
+    color: #f7f1e3;
+    padding: 0.4em;
+    cursor: not-allowed;
+}
